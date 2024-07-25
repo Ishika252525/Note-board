@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Note Board</h1>
+        <div class="widget" id="google-slides">
+            <h2>Google Slides</h2>
+            <iframe src="https://docs.google.com/presentation/d/1Ben2tIUaKl2tIW9rq7DBw9dr5tip5DWODF8wB6eKfCk/edit#slide=id.p" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="widget" id="pomodoro-timer">
+            <h2>Pomodoro Timer</h2>
+            <div id="pomodoro-timer-display">
+                <span id="time">25:00</span>
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="widget" id="https://docs.google.com/spreadsheets/u/0/?pli=1">
+            <h2>Google Spreadsheet</h2>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTkXJfLRAED0KLZbGhVfg7v1O7ZWIfUDB1B0wOHnblR7DwA5DsU3aCBIF_QK9EclNJSXJgZ2BRyR5la/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+        <div class="widget" id="google-form">
+            <h2>Google Form</h2>
+            <iframe src="https://docs.google.com/forms/d/1MmNW9A6RCLdmleHQ18HnEbjdDYQKtjILFXqcUB70uXI/edit" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <div class="widget" id="music">
+            <h2>Music</h2>
+            <audio controls>
+                <source src="your-music-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!-- Add more widgets here following the same structure -->
+        <div class="widget" id="announcement">
+            <h2>Announcements</h2>
+            <marquee>Important announcement text goes here...</marquee>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
